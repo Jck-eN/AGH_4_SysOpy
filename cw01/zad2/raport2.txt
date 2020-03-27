@@ -1,0 +1,99 @@
+Data: small_similar
+For block size: 3
+REAL TIME    User    System
+compare 2 pairs
+0.040000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: medium_similar
+For block size: 3
+REAL TIME    User    System
+compare 6 pairs
+0.090000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: big_similar
+For block size: 3
+REAL TIME    User    System
+compare 14 pairs
+0.180000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: small_medium_diff
+For block size: 26
+REAL TIME    User    System
+compare 2 pairs
+0.020000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: medium_medium_diff
+For block size: 26
+REAL TIME    User    System
+compare 6 pairs
+0.070000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: big_medium_diff
+For block size: 26
+REAL TIME    User    System
+compare 14 pairs
+0.150000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: small_diff
+For block size: 5
+REAL TIME    User    System
+compare 2 pairs
+0.360000   0.290000   0.010000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.150000   0.140000   0.010000   
+
+
+Data: medium_diff
+For block size: 5
+REAL TIME    User    System
+compare 6 pairs
+0.950000   0.800000   0.010000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.145000   0.143333   0.001667   
+
+
+Data: big_diff
+For block size: 5
+REAL TIME    User    System
+compare 14 pairs
+2.490000   2.050000   0.060000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.155714   0.151429   0.002857   
+
+

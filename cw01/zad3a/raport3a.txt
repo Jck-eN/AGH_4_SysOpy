@@ -1,0 +1,304 @@
+// ----------- STATIC -------------
+Data: small_similar
+For block size: 3
+REAL TIME    User    System
+compare 2 pairs
+0.020000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: medium_similar
+For block size: 3
+REAL TIME    User    System
+compare 6 pairs
+0.090000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: big_similar
+For block size: 3
+REAL TIME    User    System
+compare 14 pairs
+0.190000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: small_medium_diff
+For block size: 26
+REAL TIME    User    System
+compare 2 pairs
+0.020000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: medium_medium_diff
+For block size: 26
+REAL TIME    User    System
+compare 6 pairs
+0.070000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: big_medium_diff
+For block size: 26
+REAL TIME    User    System
+compare 14 pairs
+0.140000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: small_diff
+For block size: 5
+REAL TIME    User    System
+compare 2 pairs
+0.380000   0.320000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.130000   0.130000   0.005000   
+
+
+Data: medium_diff
+For block size: 5
+REAL TIME    User    System
+compare 6 pairs
+1.060000   0.890000   0.010000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.118333   0.120000   0.000000   
+
+
+Data: big_diff
+For block size: 5
+REAL TIME    User    System
+compare 14 pairs
+2.190000   1.850000   0.050000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.122143   0.120000   0.001429   
+
+// ----------- SHARED ---------------
+
+Data: small_similar
+For block size: 3
+REAL TIME    User    System
+compare 2 pairs
+0.040000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: medium_similar
+For block size: 3
+REAL TIME    User    System
+compare 6 pairs
+0.130000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: big_similar
+For block size: 3
+REAL TIME    User    System
+compare 14 pairs
+0.360000   0.000000   0.020000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: small_medium_diff
+For block size: 26
+REAL TIME    User    System
+compare 2 pairs
+0.040000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: medium_medium_diff
+For block size: 26
+REAL TIME    User    System
+compare 6 pairs
+0.130000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: big_medium_diff
+For block size: 26
+REAL TIME    User    System
+compare 14 pairs
+0.130000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: small_diff
+For block size: 5
+REAL TIME    User    System
+compare 2 pairs
+0.310000   0.260000   0.010000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.145000   0.140000   0.000000   
+
+
+Data: medium_diff
+For block size: 5
+REAL TIME    User    System
+compare 6 pairs
+0.990000   0.860000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.150000   0.146667   0.001667   
+
+
+Data: big_diff
+For block size: 5
+REAL TIME    User    System
+compare 14 pairs
+2.270000   1.910000   0.040000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.167857   0.165714   0.001429   
+
+
+// ------------ DYNAMIC ------------
+Data: small_similar
+For block size: 3
+REAL TIME    User    System
+compare 2 pairs
+0.030000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: medium_similar
+For block size: 3
+REAL TIME    User    System
+compare 6 pairs
+0.080000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: big_similar
+For block size: 3
+REAL TIME    User    System
+compare 14 pairs
+0.150000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: small_medium_diff
+For block size: 26
+REAL TIME    User    System
+compare 2 pairs
+0.010000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: medium_medium_diff
+For block size: 26
+REAL TIME    User    System
+compare 6 pairs
+0.050000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: big_medium_diff
+For block size: 26
+REAL TIME    User    System
+compare 14 pairs
+0.140000   0.000000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.000000   0.000000   0.000000   
+
+
+Data: small_diff
+For block size: 5
+REAL TIME    User    System
+compare 2 pairs
+0.360000   0.300000   0.000000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.140000   0.140000   0.000000   
+
+
+Data: medium_diff
+For block size: 5
+REAL TIME    User    System
+compare 6 pairs
+1.050000   0.870000   0.020000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.121667   0.120000   0.001667   
+
+
+Data: big_diff
+For block size: 5
+REAL TIME    User    System
+compare 14 pairs
+2.210000   1.860000   0.050000   
+delete block avg
+0.000000   0.000000   0.000000   
+add and delete avg
+0.122143   0.121429   0.000000   
+
+## Komentarz
+Autor: Jacek Nitychoruk
+Wykorzystanie roznych rodzajow bibliotek nie zmienia znaczaco czasu wykonynania programu. Jedynym odchyleniem jest to, ze nieco dluzej wykonuje sie jedynie opracja dodawania i usuwania blokow dla bibliotek wspoldzielonych.
+
+

@@ -1,0 +1,25 @@
+Path:					 Links:	 Type:	Size:	Last access:	Last_modification:
+----------------------------------------------------------------------------------------------------------
+--------------	 DIR & STAT:	 --------------
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2/Makefile	1	file	325	2020-03-13 16:10:09	2020-03-13 16:10:04
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2/test2	2	dir	4096	2020-03-13 16:10:09	2020-03-13 16:10:09
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2/test2/file1	1	file	0	2020-03-13 16:10:09	2020-03-13 16:10:09
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2/test1	2	dir	4096	2020-03-13 16:10:09	2020-03-13 16:10:09
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2/test1/file1	1	file	5	2020-03-13 16:10:09	2020-03-13 16:10:09
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2/test1/test2	1	slink	5	2020-03-13 16:10:09	2020-03-13 16:10:09
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2/test1/file2	1	file	0	2020-03-13 16:10:09	2020-03-13 16:10:09
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2/result.txt	1	file	0	2020-03-13 16:09:42	2020-03-13 16:10:09
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2/main.c	1	file	5618	2020-03-13 16:03:06	2020-03-13 15:57:27
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2/main	1	file	23664	2020-03-13 16:10:09	2020-03-13 16:10:09
+--------------	 NFTW:	 --------------
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2	4	dir	4096	2020-03-13 16:10:09	2020-03-13 16:10:09
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2/Makefile	1	file	325	2020-03-13 16:10:09	2020-03-13 16:10:04
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2/test2	2	dir	4096	2020-03-13 16:10:09	2020-03-13 16:10:09
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2/test2/file1	1	file	0	2020-03-13 16:10:09	2020-03-13 16:10:09
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2/test1	2	dir	4096	2020-03-13 16:10:09	2020-03-13 16:10:09
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2/test1/file1	1	file	5	2020-03-13 16:10:09	2020-03-13 16:10:09
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2/test1/test2	1	slink	5	2020-03-13 16:10:09	2020-03-13 16:10:09
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2/test1/file2	1	file	0	2020-03-13 16:10:09	2020-03-13 16:10:09
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2/result.txt	1	file	0	2020-03-13 16:09:42	2020-03-13 16:10:09
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2/main.c	1	file	5618	2020-03-13 16:03:06	2020-03-13 15:57:27
+/home/jacek/AGH/AGH_4_SysOpy/lab2/zad2/main	1	file	23664	2020-03-13 16:10:09	2020-03-13 16:10:09

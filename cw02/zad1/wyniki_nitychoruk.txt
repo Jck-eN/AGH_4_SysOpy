@@ -1,0 +1,247 @@
+---------
+Autor: Jacek Nitychoruk
+
+Zarówno kopiowanie jak i sortowanie realizowane za pomocą funkcji fysytemowych 
+jest o ok. 20-50% szybsze od realizowanego za pomocą funkcji bibliotecznych, co 
+jest zgodne z przewidywaniami - bezpośrednie funkcje systemowe działają szybciej.
+---------
+Time of GENERATING measured for 4000 blocks and record length 1 
+User time: 0.00s
+System time: 0.00s
+All time: 0.00s
+Time of GENERATING measured for 40000 blocks and record length 1 
+User time: 0.00s
+System time: 0.00s
+All time: 0.00s
+Time of GENERATING measured for 4000 blocks and record length 4 
+User time: 0.00s
+System time: 0.00s
+All time: 0.00s
+Time of GENERATING measured for 40000 blocks and record length 4 
+User time: 0.00s
+System time: 0.00s
+All time: 0.00s
+Time of GENERATING measured for 4000 blocks and record length 512 
+User time: 0.02s
+System time: 0.01s
+All time: 0.03s
+Time of GENERATING measured for 40000 blocks and record length 512 
+User time: 0.14s
+System time: 0.22s
+All time: 0.36s
+Time of GENERATING measured for 4000 blocks and record length 1024 
+User time: 0.02s
+System time: 0.04s
+All time: 0.06s
+Time of GENERATING measured for 40000 blocks and record length 1024 
+User time: 0.31s
+System time: 0.47s
+All time: 0.78s
+Time of GENERATING measured for 4000 blocks and record length 4096 
+User time: 0.17s
+System time: 0.23s
+All time: 0.40s
+Time of GENERATING measured for 40000 blocks and record length 4096 
+User time: 1.20s
+System time: 1.60s
+All time: 2.80s
+Time of GENERATING measured for 4000 blocks and record length 8192 
+User time: 0.24s
+System time: 0.31s
+All time: 0.55s
+Time of GENERATING measured for 40000 blocks and record length 8192 
+User time: 2.19s
+System time: 3.72s
+All time: 5.91s
+Time of COPYING (LIB), measured for 4000 blocks and record length 1 
+User time: 0.00s
+System time: 0.00s
+All time: 0.00s
+Time of COPYING (LIB), measured for 40000 blocks and record length 1 
+User time: 0.00s
+System time: 0.00s
+All time: 0.00s
+Time of COPYING (LIB), measured for 4000 blocks and record length 4 
+User time: 0.00s
+System time: 0.00s
+All time: 0.00s
+Time of COPYING (LIB), measured for 40000 blocks and record length 4 
+User time: 0.00s
+System time: 0.00s
+All time: 0.00s
+Time of COPYING (LIB), measured for 4000 blocks and record length 512 
+User time: 0.00s
+System time: 0.00s
+All time: 0.00s
+Time of COPYING (LIB), measured for 40000 blocks and record length 512 
+User time: 0.01s
+System time: 0.03s
+All time: 0.04s
+Time of COPYING (LIB), measured for 4000 blocks and record length 1024 
+User time: 0.00s
+System time: 0.00s
+All time: 0.00s
+Time of COPYING (LIB), measured for 40000 blocks and record length 1024 
+User time: 0.00s
+System time: 0.09s
+All time: 0.09s
+Time of COPYING (LIB), measured for 4000 blocks and record length 4096 
+User time: 0.01s
+System time: 0.01s
+All time: 0.02s
+Time of COPYING (LIB), measured for 40000 blocks and record length 4096 
+User time: 0.07s
+System time: 0.52s
+All time: 0.59s
+Time of COPYING (LIB), measured for 4000 blocks and record length 8192 
+User time: 0.00s
+System time: 0.06s
+All time: 0.06s
+Time of COPYING (LIB), measured for 40000 blocks and record length 8192 
+User time: 0.06s
+System time: 0.81s
+All time: 0.87s
+Time of SORTING (LIB), measured for 4000 blocks and record length 1 
+User time: 0.23s
+System time: 0.37s
+All time: 0.60s
+Time of SORTING (LIB), measured for 40000 blocks and record length 1 
+User time: 17.60s
+System time: 27.11s
+All time: 44.71s
+Time of SORTING (LIB), measured for 4000 blocks and record length 4 
+User time: 0.09s
+System time: 0.23s
+All time: 0.32s
+Time of SORTING (LIB), measured for 40000 blocks and record length 4 
+User time: 1.23s
+System time: 3.27s
+All time: 4.50s
+Time of SORTING (LIB), measured for 4000 blocks and record length 512 
+User time: 0.12s
+System time: 0.34s
+All time: 0.46s
+Time of SORTING (LIB), measured for 40000 blocks and record length 512 
+User time: 1.80s
+System time: 4.85s
+All time: 6.65s
+Time of SORTING (LIB), measured for 4000 blocks and record length 1024 
+User time: 0.13s
+System time: 0.32s
+All time: 0.45s
+Time of SORTING (LIB), measured for 40000 blocks and record length 1024 
+User time: 1.67s
+System time: 4.94s
+All time: 6.61s
+Time of SORTING (LIB), measured for 4000 blocks and record length 4096 
+User time: 0.18s
+System time: 0.65s
+All time: 0.83s
+Time of SORTING (LIB), measured for 40000 blocks and record length 4096 
+User time: 3.01s
+System time: 8.84s
+All time: 11.85s
+Time of SORTING (LIB), measured for 4000 blocks and record length 8192 
+User time: 0.31s
+System time: 0.88s
+All time: 1.19s
+Time of SORTING (LIB), measured for 40000 blocks and record length 8192 
+User time: 3.85s
+System time: 12.86s
+All time: 16.71s
+Time of COPYING (SYS), measured for 4000 blocks and record length 1 
+User time: 0.00s
+System time: 0.01s
+All time: 0.01s
+Time of COPYING (SYS), measured for 40000 blocks and record length 1 
+User time: 0.02s
+System time: 0.15s
+All time: 0.17s
+Time of COPYING (SYS), measured for 4000 blocks and record length 4 
+User time: 0.00s
+System time: 0.01s
+All time: 0.01s
+Time of COPYING (SYS), measured for 40000 blocks and record length 4 
+User time: 0.01s
+System time: 0.14s
+All time: 0.15s
+Time of COPYING (SYS), measured for 4000 blocks and record length 512 
+User time: 0.00s
+System time: 0.01s
+All time: 0.01s
+Time of COPYING (SYS), measured for 40000 blocks and record length 512 
+User time: 0.00s
+System time: 0.18s
+All time: 0.18s
+Time of COPYING (SYS), measured for 4000 blocks and record length 1024 
+User time: 0.00s
+System time: 0.02s
+All time: 0.02s
+Time of COPYING (SYS), measured for 40000 blocks and record length 1024 
+User time: 0.01s
+System time: 0.20s
+All time: 0.21s
+Time of COPYING (SYS), measured for 4000 blocks and record length 4096 
+User time: 0.00s
+System time: 0.04s
+All time: 0.04s
+Time of COPYING (SYS), measured for 40000 blocks and record length 4096 
+User time: 0.01s
+System time: 0.34s
+All time: 0.35s
+Time of COPYING (SYS), measured for 4000 blocks and record length 8192 
+User time: 0.00s
+System time: 0.05s
+All time: 0.05s
+Time of COPYING (SYS), measured for 40000 blocks and record length 8192 
+User time: 0.01s
+System time: 0.68s
+All time: 0.69s
+Time of SORTING (SYS), measured for 4000 blocks and record length 1 
+User time: 0.32s
+System time: 0.60s
+All time: 0.92s
+Time of SORTING (SYS), measured for 40000 blocks and record length 1 
+User time: 22.03s
+System time: 45.81s
+All time: 67.84s
+Time of SORTING (SYS), measured for 4000 blocks and record length 4 
+User time: 0.05s
+System time: 0.25s
+All time: 0.30s
+Time of SORTING (SYS), measured for 40000 blocks and record length 4 
+User time: 1.06s
+System time: 3.08s
+All time: 4.14s
+Time of SORTING (SYS), measured for 4000 blocks and record length 512 
+User time: 0.10s
+System time: 0.26s
+All time: 0.36s
+Time of SORTING (SYS), measured for 40000 blocks and record length 512 
+User time: 1.22s
+System time: 3.78s
+All time: 5.00s
+Time of SORTING (SYS), measured for 4000 blocks and record length 1024 
+User time: 0.09s
+System time: 0.26s
+All time: 0.35s
+Time of SORTING (SYS), measured for 40000 blocks and record length 1024 
+User time: 1.11s
+System time: 3.51s
+All time: 4.62s
+Time of SORTING (SYS), measured for 4000 blocks and record length 4096 
+User time: 0.07s
+System time: 0.40s
+All time: 0.47s
+Time of SORTING (SYS), measured for 40000 blocks and record length 4096 
+User time: 1.35s
+System time: 5.21s
+All time: 6.56s
+Time of SORTING (SYS), measured for 4000 blocks and record length 8192 
+User time: 0.13s
+System time: 0.51s
+All time: 0.64s
+Time of SORTING (SYS), measured for 40000 blocks and record length 8192 
+User time: 1.78s
+System time: 8.21s
+All time: 9.99s

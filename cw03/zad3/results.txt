@@ -1,0 +1,14 @@
+
+calc_tmp:
+
+
+Result matrix number 1 is correct!
+Result matrix number 2 is correct!
+Result matrix number 3 is correct!
+All matrices are correct!
+calc_flock:
+
+
+Result matrix number 1 is correct!
+Result matrix number 2 is correct!
+Result matrix number 3 is incorrect!

@@ -1,0 +1,8 @@
+/home/jacek/AGH/AGH_4_SysOpy/lab3/zad1/test1	 ---- PID: 112496
+razem 0
+-rw-r--r-- 1 jacek jacek 0 mar 24 18:28 file1
+razem 4
+/home/jacek/AGH/AGH_4_SysOpy/lab3/zad1/test2	 ---- PID: 112495
+-rw-r--r-- 1 jacek jacek 5 mar 24 18:28 file1
+-rw-r--r-- 1 jacek jacek 0 mar 24 18:28 file2
+lrwxrwxrwx 1 jacek jacek 5 mar 24 18:28 test2 -> test2
