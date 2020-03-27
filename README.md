@@ -1,2 +1,8 @@
-# AGH_4_SysOpy
-Semestr 4 - Systemy operacyjne
+# Systemy operacyjne
+## Semestr 4
+Pełne rozwiązania zadań. Kosztowały wiele godzin bólu i cierpienia. 
+
+Jeżeli się *inspirujesz*, czyń to z głową ;-)
+
+---
+**Autor:** Jacek Nitychoruk 
