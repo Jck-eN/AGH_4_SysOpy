@@ -1,0 +1,39 @@
+FORK():					|
+maskowanie:	dziedziczy		|
+handler:	dziedziczy		|
+ignorowanie:	dziedziczy		|
+oczekiwanie:	nie jest widoczny	|
+-----					|
+EXEC():					|
+maskowanie:	dziedziczy		|
+ignorowanie:	dziedziczy		|
+oczekiwanie:	jest widoczny		|
+-----------------------------------------
+
+ignore child:
+
+handler child:
+
+Received signal!
+Received signal!
+Received signal!
+mask child:
+
+Signal pending (main): 1
+Signal pending (main): 1
+Signal pending (child): 1
+pending child:
+
+Signal pending (main): 1
+Signal pending (main): 1
+Signal pending (child): 0
+
+
+ignore exec:
+
+mask exec:
+
+Signal pending (second): 1
+pending exec:
+
+Signal pending (second): 1
