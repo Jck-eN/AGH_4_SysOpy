@@ -1,0 +1,3 @@
+ps aux | grep root | wc -l
+ls -l | wc -w
+cat /etc/passwd | head -10 | grep nologin
