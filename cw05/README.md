@@ -34,11 +34,11 @@ Producent:
 
 Konsument:
 
-    przyjmuje trzy argumenty: ścieżka do potoku nazwanego, ścieżka do pliku tekstowego (do którego będzie zapisywany odczytany tekst), N - liczba znaków odczytywanych jednorazowo z pliku
-    otwiera potok nazwany
-    wielokrotnie:
-        czyta kolejnych N znaków potoku nazwanego
-        umieszcza odczytane znaki w pliku tekstowym (różnym od plików, z których korzystają producenci)
+- przyjmuje trzy argumenty: ścieżka do potoku nazwanego, ścieżka do pliku tekstowego (do którego będzie zapisywany odczytany tekst), N - liczba znaków odczytywanych jednorazowo z pliku
+- otwiera potok nazwany
+- wielokrotnie:
+  - czyta kolejnych N znaków potoku nazwanego
+  - umieszcza odczytane znaki w pliku tekstowym (różnym od plików, z których korzystają producenci)
 
 Pliki tekstowe powinny być krótkie (na 5-10 odczytów) i umożliwiać sprawdzenie poprawności działania (brak utraty, zwielokrotnienia surowca). W szczególności każdy Producent powinien otrzymać wygenerowany w dowolny sposób plik tekstowy z dowolną zawartością, ale w istotny sposób różniącą się od zawartości plików innych Producentów. Na przykład jeden producent może otrzymać plik zawierający tylko konkretną literę, inny tylko liczby itd. 
 
