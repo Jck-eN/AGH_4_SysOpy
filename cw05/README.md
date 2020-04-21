@@ -1,4 +1,4 @@
-# Zadania - zestaw 4. - Potoki nazwane i nienazwane
+# Zadania - zestaw 5. - Potoki nazwane i nienazwane
 
 ## Zadanie 1 (50%)
 
