@@ -1,0 +1,164 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <string.h>
+#include <time.h>
+#include <sys/time.h>
+#include <stdlib.h>
+#include <errno.h>
+#include <sys/ipc.h>
+#include <sys/types.h>
+#include <sys/sem.h>
+#include <sys/mman.h>
+#include <fcntl.h>
+#include "helper.h"
+#include <sys/stat.h>
+#include <semaphore.h>
+
+pid_t pid = -1;
+char current_time[100];
+int shared_memory_id = -1;
+shop_queue* shared_memory = NULL;
+int sem_id = -1;
+sem_t* semaphores[4];
+
+void change_sem(int sem_num, int sem_diff){
+    if(sem_num>=4 || sem_num < 0) return;
+    if(semaphores[sem_num] == NULL ) return;
+
+    if(sem_diff == 1){
+        sem_post(semaphores[sem_num]);
+    }
+    else if(sem_diff == -1){
+        sem_wait(semaphores[sem_num]);
+    }
+    else return;
+
+}
+
+void get_current_time(char* time_string){
+    time_t now = time(NULL);
+    struct tm *now_time = localtime(&now);
+    char buf[30];
+    strftime(buf, 29, "%H:%M:%S", now_time);
+    struct timeval tv;
+    gettimeofday(&tv,NULL);
+    int ms = tv.tv_usec/1000;
+    sprintf(time_string, "%s.%d", buf, ms);
+}
+
+void receive_order(int package_size){
+    int to_pack;
+    int to_send;
+
+
+    change_sem(SEM_FREE, -1);
+    shared_memory = mmap(NULL, sizeof(shop_queue), PROT_READ | PROT_WRITE, MAP_SHARED, shared_memory_id, 0);
+
+    if(shared_memory == NULL) return;
+
+    int package_to_receive = (shared_memory->last_received+1)%ORDERS_LIMIT;
+
+
+
+    if(shared_memory->queue[package_to_receive].status == S_EMPTY){
+
+        change_sem(SEM_QUEUE_WRITE, -1);
+
+        shared_memory->queue[package_to_receive].size = package_size;
+        shared_memory->queue[package_to_receive].status = S_RECEIVED;
+        shared_memory->last_received = package_to_receive;
+        shared_memory->num_received++;
+        to_pack = shared_memory->num_received;
+        to_send = shared_memory->num_packed;
+        change_sem(SEM_RECEIVED, 1);
+
+        change_sem(SEM_QUEUE_WRITE, 1);
+    }
+    else{
+        printf("Error queue status (receive1)\n");
+
+        if (munmap(shared_memory, sizeof(shop_queue)) < 0)
+            {
+                printf("Cannot detach shared memory\n");
+                exit(EXIT_FAILURE);
+            }
+            return;
+    }
+
+    get_current_time(current_time);
+    printf("(%d %s) Dodałem liczbę: %d. Liczba zamównień do przygotowania: %d. Liczba zamównień do wysłania: %d.\n",
+            pid, current_time, package_size, to_pack, to_send);
+
+    if (munmap(shared_memory, sizeof(shop_queue)) < 0)
+    {
+        printf("Cannot detach shared memory\n");
+        exit(EXIT_FAILURE);
+    }
+}
+
+
+void clean(){
+    if(shared_memory != NULL) {
+        if (munmap(shared_memory, sizeof(shop_queue)) < 0)
+        {
+            printf("Cannot detach shared memory\n");
+            exit(EXIT_FAILURE);
+        }
+    }
+    for (int i = 0; i < 4; i++)
+    {
+        if (sem_close(semaphores[i]) < 0)
+        {
+            printf("Cannot close semaphore\n");
+            exit(EXIT_FAILURE);
+        }
+    }
+
+}
+
+void initialize_shared(){
+    shared_memory_id = shm_open(SHARED_MEM, O_RDWR, S_IRWXU | S_IRWXG | S_IRWXO );
+    if(shared_memory_id < 0){
+        printf("Cannot create shared memory");
+        exit(1);
+    }
+}
+
+void initialize_sem(){
+    for (int i = 0; i < 4; i++)
+    {
+        semaphores[i] = sem_open(sem_names[i], O_RDWR);
+        if (semaphores[i] < 0)
+        {
+            printf("Cannot open semaphore\n");
+            exit(EXIT_FAILURE);
+        }
+    }
+    int tmp=-10;
+    sem_getvalue(semaphores[0], &tmp);
+    sem_getvalue(semaphores[1], &tmp);
+    sem_getvalue(semaphores[2], &tmp);
+    sem_getvalue(semaphores[3], &tmp);
+}
+
+
+int main() {
+    atexit(clean);
+    int package_size=0;
+    int sleep_us = 0;
+    pid = getpid();
+    srand(time(NULL)+getpid());
+    initialize_shared();
+    initialize_sem();
+
+
+    while(1){
+        package_size = rand()%MAX_PACKAGE_SIZE+1;
+
+        receive_order(package_size);
+
+        sleep_us = rand()%1000000+500000;
+        usleep(sleep_us);
+    }
+    return 0;
+}
