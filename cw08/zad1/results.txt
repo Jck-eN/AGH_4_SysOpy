@@ -1,0 +1,159 @@
+1 wątków - metoda  sign
+Wątek 0:		 704 ms
+Cały program:	 957 ms
+
+
+2 wątków - metoda  sign
+Wątek 0:		 700 ms
+Wątek 1:		 340 ms
+Cały program:	 921 ms
+
+
+4 wątków - metoda  sign
+Wątek 0:		 755 ms
+Wątek 1:		 409 ms
+Wątek 2:		 490 ms
+Wątek 3:		 358 ms
+Cały program:	 1154 ms
+
+
+8 wątków - metoda  sign
+Wątek 0:		 675 ms
+Wątek 1:		 550 ms
+Wątek 2:		 332 ms
+Wątek 3:		 448 ms
+Wątek 4:		 383 ms
+Wątek 5:		 366 ms
+Wątek 6:		 811 ms
+Wątek 7:		 405 ms
+Cały program:	 2327 ms
+
+
+16 wątków - metoda  sign
+Wątek 0:		 632 ms
+Wątek 1:		 673 ms
+Wątek 2:		 614 ms
+Wątek 3:		 337 ms
+Wątek 4:		 484 ms
+Wątek 5:		 541 ms
+Wątek 6:		 550 ms
+Wątek 7:		 404 ms
+Wątek 8:		 437 ms
+Wątek 9:		 332 ms
+Wątek 10:		 309 ms
+Wątek 11:		 264 ms
+Wątek 12:		 399 ms
+Wątek 13:		 392 ms
+Wątek 14:		 426 ms
+Wątek 15:		 385 ms
+Cały program:	 3518 ms
+
+
+
+--------------------
+1 wątków - metoda  block
+Wątek 0:		 854 ms
+Cały program:	 1107 ms
+
+
+2 wątków - metoda  block
+Wątek 0:		 632 ms
+Wątek 1:		 605 ms
+Cały program:	 834 ms
+
+
+4 wątków - metoda  block
+Wątek 0:		 378 ms
+Wątek 1:		 381 ms
+Wątek 2:		 248 ms
+Wątek 3:		 184 ms
+Cały program:	 3501 ms
+
+
+8 wątków - metoda  block
+Wątek 0:		 212 ms
+Wątek 1:		 287 ms
+Wątek 2:		 249 ms
+Wątek 3:		 162 ms
+Wątek 4:		 207 ms
+Wątek 5:		 145 ms
+Wątek 6:		 123 ms
+Wątek 7:		 111 ms
+Cały program:	 1129 ms
+
+
+16 wątków - metoda  block
+Wątek 0:		 91 ms
+Wątek 1:		 79 ms
+Wątek 2:		 69 ms
+Wątek 3:		 133 ms
+Wątek 4:		 135 ms
+Wątek 5:		 125 ms
+Wątek 6:		 126 ms
+Wątek 7:		 75 ms
+Wątek 8:		 146 ms
+Wątek 9:		 85 ms
+Wątek 10:		 157 ms
+Wątek 11:		 69 ms
+Wątek 12:		 253 ms
+Wątek 13:		 122 ms
+Wątek 14:		 59 ms
+Wątek 15:		 87 ms
+Cały program:	 1319 ms
+
+
+
+--------------------
+1 wątków - metoda  interleaved
+Wątek 0:		 765 ms
+Cały program:	 947 ms
+
+
+2 wątków - metoda  interleaved
+Wątek 0:		 834 ms
+Wątek 1:		 815 ms
+Cały program:	 1081 ms
+
+
+4 wątków - metoda  interleaved
+Wątek 0:		 644 ms
+Wątek 1:		 552 ms
+Wątek 2:		 532 ms
+Wątek 3:		 179 ms
+Cały program:	 1052 ms
+
+
+8 wątków - metoda  interleaved
+Wątek 0:		 321 ms
+Wątek 1:		 274 ms
+Wątek 2:		 219 ms
+Wątek 3:		 358 ms
+Wątek 4:		 102 ms
+Wątek 5:		 258 ms
+Wątek 6:		 161 ms
+Wątek 7:		 336 ms
+Cały program:	 1190 ms
+
+
+16 wątków - metoda  interleaved
+Wątek 0:		 160 ms
+Wątek 1:		 120 ms
+Wątek 2:		 116 ms
+Wątek 3:		 74 ms
+Wątek 4:		 167 ms
+Wątek 5:		 56 ms
+Wątek 6:		 51 ms
+Wątek 7:		 90 ms
+Wątek 8:		 95 ms
+Wątek 9:		 77 ms
+Wątek 10:		 107 ms
+Wątek 11:		 75 ms
+Wątek 12:		 119 ms
+Wątek 13:		 122 ms
+Wątek 14:		 111 ms
+Wątek 15:		 123 ms
+Cały program:	 1491 ms
+
+
+
+--------------------
